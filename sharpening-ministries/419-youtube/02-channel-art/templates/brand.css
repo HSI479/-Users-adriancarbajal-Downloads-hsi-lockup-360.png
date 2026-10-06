@@ -1,0 +1,18 @@
+@font-face { font-family: "Rokkitt"; src: url("../fonts/Rokkitt-variable.woff2") format("woff2"); font-weight: 100 900; }
+@font-face { font-family: "Libre Franklin"; src: url("../fonts/LibreFranklin-variable.woff2") format("woff2"); font-weight: 100 900; }
+@font-face { font-family: "Archivo"; src: url("../fonts/Archivo-variable.woff2") format("woff2"); font-weight: 100 900; }
+:root {
+  --charcoal: #1C1B18;
+  --charcoal-2: #24221E;
+  --gold: #8A6817;
+  --gold-light: #D8B45A;
+  --gold-pale: #EAD39A;
+  --bone: #F3EEE3;
+  --stone: #B9B2A4;
+  --display: "Rokkitt", Georgia, serif;
+  --body: "Libre Franklin", Arial, sans-serif;
+  --label: "Archivo", Arial, sans-serif;
+}
+html, body { margin: 0; padding: 0; background: var(--charcoal); color: var(--bone); }
+* { box-sizing: border-box; }
+.label { font-family: var(--label); font-weight: 600; letter-spacing: .28em; text-transform: uppercase; color: var(--gold-light); }

@@ -1,0 +1,13 @@
+<!doctype html><html><head><meta charset="utf-8"><title>4:19 profile</title>
+<link rel="stylesheet" href="brand.css">
+<style>
+body { width: 800px; height: 800px; overflow: hidden; background: var(--charcoal); }
+/* YouTube displays the profile image as a circle; keep the medallion inside the central 86% */
+#logo { position: absolute; left: 56px; top: 56px; width: 688px; height: 688px; }
+#logo svg, #logo img { width: 100%; height: 100%; }
+.guide { position:absolute; inset:0; border-radius:50%; border:2px dashed #ff3b30; display:none; }
+body.guides .guide { display:block; }
+</style></head>
+<body><div id="logo"></div><div class="guide"></div>
+<script src="logo.js"></script><script>mountLogo(document.getElementById('logo'));</script>
+</body></html>

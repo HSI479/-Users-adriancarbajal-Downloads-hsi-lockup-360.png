@@ -1,0 +1,49 @@
+<!doctype html><html><head><meta charset="utf-8"><title>4:19 banner</title>
+<link rel="stylesheet" href="brand.css">
+<style>
+body { width: 2560px; height: 1440px; overflow: hidden; position: relative;
+  background: radial-gradient(ellipse 60% 70% at 50% 52%, #2A2721 0%, var(--charcoal) 60%, #141310 100%); }
+/* decorative, allowed to crop: full-width gold rules and faint net */
+.rule { position:absolute; left:0; right:0; height:2px; background: linear-gradient(90deg, transparent, var(--gold) 25%, var(--gold-light) 50%, var(--gold) 75%, transparent); opacity:.8; }
+.rule.top { top: 468px; } .rule.bottom { top: 970px; }
+svg.net { position:absolute; left:0; top:0; width:2560px; height:1440px; opacity:.16; }
+/* SAFE AREA: 1546x423 centered -> x 507..2053, y 508..931. Everything that must survive crop lives here. */
+.safe { position:absolute; left:507px; top:508px; width:1546px; height:423px; display:flex; align-items:center; gap:52px; }
+#logo { width: 380px; height: 380px; flex: none; }
+#logo svg, #logo img { width:100%; height:100%; }
+.text { flex:1; display:flex; flex-direction:column; justify-content:center; }
+.wordmark { font-family: var(--display); font-weight: 800; font-size: 178px; line-height: .9; letter-spacing: -2px;
+  background: linear-gradient(180deg, var(--gold-pale), var(--gold-light) 55%, var(--gold)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+.wordmark small { font-size: 112px; font-weight: 600; letter-spacing: 4px; }
+.tag { font-family: var(--body); font-weight: 500; font-size: 44px; color: var(--bone); margin-top: 18px; letter-spacing: .2px; }
+.by { font-family: var(--label); font-weight: 600; font-size: 26px; letter-spacing: .3em; text-transform: uppercase; color: var(--stone); margin-top: 22px; }
+.by b { color: var(--gold-light); font-weight: 600; }
+/* guides (render with ?guides=1 to verify) */
+.g { position:absolute; display:none; pointer-events:none; }
+body.guides .g { display:block; }
+.g.safe-box { left:507px; top:508px; width:1546px; height:423px; outline: 3px dashed #ff3b30; }
+.g.tablet { left:(2560-1855)/2px; left:352px; top:(1440-423)/2px; top:508px; width:1855px; height:423px; outline:3px dashed #ffd60a; }
+.g.desktop { left:0; top:508px; width:2560px; height:423px; outline:3px dashed #30d158; }
+.g.lbl { font: 600 28px/1 var(--label); color:#fff; background:rgba(0,0,0,.6); padding:8px 12px; }
+</style></head>
+<body>
+<svg class="net" viewBox="0 0 2560 1440" fill="none" stroke="#D8B45A" stroke-width="2">
+  <path d="M0 1120 Q1280 1400 2560 1120"/><path d="M0 1200 Q1280 1480 2560 1200"/><path d="M0 1280 Q1280 1560 2560 1280"/>
+  <path d="M0 320 Q1280 40 2560 320"/><path d="M0 240 Q1280 -40 2560 240"/><path d="M0 160 Q1280 -120 2560 160"/>
+</svg>
+<div class="rule top"></div><div class="rule bottom"></div>
+<div class="safe">
+  <div id="logo"></div>
+  <div class="text">
+    <div class="wordmark">4:19 <small>PODCAST</small></div>
+    <div class="tag">Men walking for a lifetime.</div>
+    <div class="by">A <b>Sharpening Ministries</b> production &nbsp;·&nbsp; sharpeningministries.com</div>
+  </div>
+</div>
+<div class="g safe-box"></div><div class="g tablet"></div><div class="g desktop"></div>
+<div class="g lbl" style="left:515px;top:470px">SAFE 1546×423 (all devices)</div>
+<div class="g lbl" style="left:360px;top:940px;color:#ffd60a">TABLET 1855×423</div>
+<div class="g lbl" style="left:8px;top:940px;color:#30d158">DESKTOP 2560×423</div>
+<script src="logo.js"></script>
+<script>mountLogo(document.getElementById('logo')); if (location.search.includes('guides')) document.body.classList.add('guides');</script>
+</body></html>

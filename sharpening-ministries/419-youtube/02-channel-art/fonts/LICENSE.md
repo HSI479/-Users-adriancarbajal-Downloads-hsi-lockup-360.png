@@ -1,0 +1,1 @@
+Rokkitt, Libre Franklin and Archivo are distributed under the SIL Open Font License 1.1 and were fetched from Google Fonts (latin subset, variable weight). See https://fonts.google.com for the full license text.
