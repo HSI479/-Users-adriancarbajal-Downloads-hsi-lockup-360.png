@@ -9,6 +9,8 @@ first three episodes, in the order Adrian will use it.
 | `02-channel-art/` | Rendered profile image, banner (safe-area proof included), podcast cover and three thumbnail concepts, plus the HTML → PNG pipeline to re-render with the real logo and photos |
 | `03-launch-plan.md` | Upload order and calendar, titles, description template with chapters, thumbnail system, Shorts cadence for the teaser window, podcast playlist setup, end screens and cards |
 | `04-permissions-and-ownership-checklist.md` | Launch-day and handoff-day checklists for roles and Primary Owner transfer |
+| `05-accounts-and-channel-structure.md` | Two channels, one ministry Google account (`media@`), roles across both, Meta setup, cross-promotion |
+| `06-prelaunch-shorts-plan.md` | The two-week Shorts window across YouTube, Instagram and Facebook: what, where, when, who, and what to measure |
 
 ## Open questions for Adrian (answers change the plan; defaults assumed until then)
 
@@ -18,9 +20,9 @@ first three episodes, in the order Adrian will use it.
    session, so the chapter timestamps and final titles can be written from what was actually said.
 3. **Shorts folder.** The `419-shorts/` exports and the OpusClip batch (which clips exist, which
    episode each came from), to pick the six teaser Shorts.
-4. **Long-term owner.** Larry's personal Google account, or a ministry Google account
-   (recommended: e.g. `podcast@sharpeningministries.com`, owned by the ministry, with Larry and
-   Adrian both as Owners). This decides who is invited as Owner on launch day.
+4. **Long-term owner.** Decided: a ministry account, `media@sharpeningministries.com`, Primary
+   Owner of both channels (see `05-accounts-and-channel-structure.md`). Open: is the domain's
+   email on Google Workspace or another host? That decides how `media@` gets its Google account.
 5. **Real artwork.** The two logo PNGs from iCloud, a portrait or program-feed still of Mark Carter,
    and a three-up still or Hot Springs photo of Taylor, Walker and Adrian, to re-render the art
    with the actual logo and thumbnails with faces.

@@ -1,7 +1,10 @@
 # 4:19 Podcast — permissions and ownership checklist
 
-Two run-throughs: **launch day** (channel creation under Adrian's Google account) and **handoff
-day** (Primary Owner moves to Larry or a ministry account, at least 7 days later). Everything here
+Decided: the long-term Primary Owner of both channels is `media@sharpeningministries.com`
+(see `05-accounts-and-channel-structure.md`). **If `media@` exists before launch day, create the
+channels signed in as `media@` and skip section B entirely.** The two run-throughs below cover the
+fallback: **launch day** (channel creation under Adrian's Google account) and **handoff day**
+(Primary Owner moves to `media@`, at least 7 days later). Everything here
 is done in a **desktop browser**; Brand Account ownership changes are not available in the apps.
 
 ## A. Launch day (Adrian)
@@ -9,8 +12,8 @@ is done in a **desktop browser**; Brand Account ownership changes are not availa
 Security first, five minutes:
 
 - [ ] Adrian's Google account has 2-Step Verification on, a recovery phone and a recovery email.
-- [ ] Decide the long-term Primary Owner now (see open questions); if it is a new ministry Google
-      account, create it today so the 7-day clock starts today.
+- [ ] Create `media@sharpeningministries.com` as a real Google account today so the 7-day clock
+      starts today (or, better, create the channels signed in as `media@`).
 
 Create the channel as a Brand Account:
 
