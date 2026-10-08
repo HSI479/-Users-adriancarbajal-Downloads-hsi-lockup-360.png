@@ -16,3 +16,4 @@
 html, body { margin: 0; padding: 0; background: var(--charcoal); color: var(--bone); }
 * { box-sizing: border-box; }
 .label { font-family: var(--label); font-weight: 600; letter-spacing: .28em; text-transform: uppercase; color: var(--gold-light); }
+@font-face { font-family: "Montserrat"; src: url("../fonts/Montserrat-variable.woff2") format("woff2"); font-weight: 100 900; }
