@@ -10,12 +10,11 @@ svg.grain { position:absolute; inset:0; width:2560px; height:1440px; opacity:.35
 .rule.top { top:468px; } .rule.bottom { top:970px; }
 .safe { position:absolute; left:507px; top:508px; width:1546px; height:423px; display:flex; align-items:center; justify-content:space-between; gap:40px; }
 .text { display:flex; flex-direction:column; justify-content:center; flex:1; }
-.shield { flex:none; width:210px; height:300px; display:flex; align-items:center; justify-content:center; margin-right:36px; }
-.shield img { width:200px; height:auto; display:block; }
-.kicker { font-family: var(--label); font-weight:600; font-size:24px; letter-spacing:.34em; text-transform:uppercase; color: var(--rope); margin-bottom:8px; }
+.lockup { width:860px; height:auto; display:block; margin:4px 0 0 -8px; }
+.kicker { font-family: var(--label); font-weight:600; font-size:24px; letter-spacing:.34em; text-transform:uppercase; color: var(--rope); margin-bottom:10px; }
 .wordmark { font-family: var(--display); font-weight:800; font-size:128px; line-height:.9; letter-spacing:-1px; color: var(--gun);
   text-shadow: 0 2px 0 rgba(255,255,255,.35), 0 3px 8px rgba(40,30,20,.25); }
-.tag { font-family: 'Montserrat', var(--body); font-weight:500; font-size:33px; letter-spacing:.02em; white-space:nowrap; color: var(--navy); margin-top:14px; }
+.tag { font-family: 'Tenor Sans', serif; font-size:27px; letter-spacing:.2em; text-transform:uppercase; color: var(--navy); margin-top:26px; white-space:nowrap; }
 .by { font-family: var(--label); font-weight:600; font-size:24px; letter-spacing:.3em; text-transform:uppercase; color: var(--gun-2); margin-top:12px; }
 .pod { display:flex; flex-direction:column; align-items:center; gap:14px; flex:none; padding-left:40px; border-left:3px solid rgba(43,58,102,.35); height:360px; justify-content:center; }
 #logo { width:270px; height:270px; filter: drop-shadow(0 6px 14px rgba(40,30,20,.35)); }
@@ -29,10 +28,9 @@ svg.grain { position:absolute; inset:0; width:2560px; height:1440px; opacity:.35
 <div class="vig"></div>
 <div class="rule top"></div><div class="rule bottom"></div>
 <div class="safe">
-  <div class="shield"><img src="../assets/shield-canvas.png" alt="Sharpening Ministries"></div>
   <div class="text">
     <div class="kicker">Matthew 4:19 · Fishers of men</div>
-    <div class="wordmark">Sharpening<br>Ministries</div>
+    <img class="lockup" src="../assets/sharpening-lockup-slate.png" alt="Sharpening Ministries">
     <div class="tag">Men walking with God for a lifetime.</div>
     <div class="by">sharpeningministries.com</div>
   </div>

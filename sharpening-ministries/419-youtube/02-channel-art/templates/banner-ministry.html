@@ -9,12 +9,11 @@ svg.net { position:absolute; left:0; top:0; width:2560px; height:1440px; opacity
 /* SAFE AREA 1546x423 centered: x 507..2053, y 508..931 */
 .safe { position:absolute; left:507px; top:508px; width:1546px; height:423px; display:flex; align-items:center; justify-content:space-between; gap:40px; }
 .text { display:flex; flex-direction:column; justify-content:center; flex:1; }
-.shield { flex:none; width:210px; height:300px; display:flex; align-items:center; justify-content:center; margin-right:36px; }
-.shield img { width:200px; height:auto; display:block; }
-.kicker { font-family: var(--label); font-weight:600; font-size:24px; letter-spacing:.34em; text-transform:uppercase; color: var(--stone); margin-bottom:8px; }
+.lockup { width:860px; height:auto; display:block; margin:4px 0 0 -8px; }
+.kicker { font-family: var(--label); font-weight:600; font-size:24px; letter-spacing:.34em; text-transform:uppercase; color: var(--stone); margin-bottom:10px; }
 .wordmark { font-family: var(--display); font-weight: 800; font-size: 128px; line-height: .9; letter-spacing: -1px;
   background: linear-gradient(180deg, var(--gold-pale), var(--gold-light) 55%, var(--gold)); -webkit-background-clip:text; background-clip:text; color:transparent; }
-.tag { font-family: 'Montserrat', var(--body); font-weight: 500; font-size: 33px; letter-spacing:.02em; white-space:nowrap; color: var(--bone); margin-top: 14px; }
+.tag { font-family: 'Tenor Sans', serif; font-size:27px; letter-spacing:.2em; text-transform:uppercase; color: var(--bone); margin-top:26px; white-space:nowrap; }
 .by { font-family: var(--label); font-weight: 600; font-size: 24px; letter-spacing: .3em; text-transform: uppercase; color: var(--stone); margin-top: 12px; }
 .pod { display:flex; flex-direction:column; align-items:center; gap:14px; flex:none; padding-left:40px; border-left:2px solid rgba(216,180,90,.45); height:360px; justify-content:center; }
 #logo { width: 260px; height: 260px; filter: drop-shadow(0 6px 16px rgba(0,0,0,.6)); }
@@ -30,10 +29,9 @@ svg.net { position:absolute; left:0; top:0; width:2560px; height:1440px; opacity
 </svg>
 <div class="rule top"></div><div class="rule bottom"></div>
 <div class="safe">
-  <div class="shield"><img src="../assets/shield-light.png" alt="Sharpening Ministries"></div>
   <div class="text">
     <div class="kicker">Matthew 4:19 · Fishers of men</div>
-    <div class="wordmark">Sharpening<br>Ministries</div>
+    <img class="lockup" src="../assets/sharpening-lockup-bone.png" alt="Sharpening Ministries">
     <div class="tag">Men walking with God for a lifetime.</div>
     <div class="by">sharpeningministries.com</div>
   </div>
