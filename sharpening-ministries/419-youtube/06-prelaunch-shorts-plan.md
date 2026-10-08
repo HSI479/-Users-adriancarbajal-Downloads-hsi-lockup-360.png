@@ -1,5 +1,10 @@
 # Pre-launch Shorts plan: YouTube, Instagram, Facebook
 
+> **Decision update, Oct 8:** one YouTube channel, **Sharpening Ministries** (`@SharpeningMinistries`,
+> Brand Account owned by `media@sharpeningministries.com`), with the 4:19 Podcast as a podcast playlist
+> on it. The separate `@419podcast` channel is optional and only to hold the handle. Where a doc below
+> says "4:19 channel", read "the podcast playlist on the ministry channel".
+
 Goal: by the morning episode 1 goes live, the people most likely to watch it already know the name
 "4:19 Podcast", have seen Larry's face and Mark Carter's, and are subscribed or following where
 the episode will appear. Shorts do that job; they do not need to go viral.

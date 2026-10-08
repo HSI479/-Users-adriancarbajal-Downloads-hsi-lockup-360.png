@@ -1,5 +1,10 @@
 # 4:19 Podcast — YouTube launch plan
 
+> **Decision update, Oct 8:** one YouTube channel, **Sharpening Ministries** (`@SharpeningMinistries`,
+> Brand Account owned by `media@sharpeningministries.com`), with the 4:19 Podcast as a podcast playlist
+> on it. The separate `@419podcast` channel is optional and only to hold the handle. Where a doc below
+> says "4:19 channel", read "the podcast playlist on the ministry channel".
+
 Status: draft for Adrian's review. Dates below assume a **Tuesday, October 27, 2026 launch**;
 nothing else in this plan changes if the date moves, only the calendar. The three episodes in hand:
 

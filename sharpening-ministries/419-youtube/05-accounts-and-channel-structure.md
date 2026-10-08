@@ -1,5 +1,10 @@
 # Accounts and channel structure
 
+> **Decision update, Oct 8:** one YouTube channel, **Sharpening Ministries** (`@SharpeningMinistries`,
+> Brand Account owned by `media@sharpeningministries.com`), with the 4:19 Podcast as a podcast playlist
+> on it. The separate `@419podcast` channel is optional and only to hold the handle. Where a doc below
+> says "4:19 channel", read "the podcast playlist on the ministry channel".
+
 Decision: two YouTube channels, one ministry-owned Google account over both.
 
 | Channel | Handle to claim | Content | Primary Owner |

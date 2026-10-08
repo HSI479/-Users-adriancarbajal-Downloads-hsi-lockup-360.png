@@ -1,0 +1,41 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Sharpening Ministries banner (canvas)</title>
+<link rel="stylesheet" href="brand.css">
+<style>
+/* palette lifted from the real 4:19 logo: canvas, rope, navy, gunmetal */
+:root { --canvas:#CEBCA7; --canvas-2:#C2AE97; --rope:#A98A62; --navy:#2B3A66; --gun:#3B3B3E; --gun-2:#5A5A5E; }
+body { width:2560px; height:1440px; overflow:hidden; position:relative; background: var(--canvas); }
+svg.grain { position:absolute; inset:0; width:2560px; height:1440px; opacity:.35; mix-blend-mode:multiply; }
+.vig { position:absolute; inset:0; background: radial-gradient(ellipse 70% 80% at 50% 50%, rgba(0,0,0,0) 55%, rgba(60,40,20,.22) 100%); }
+.rule { position:absolute; left:0; right:0; height:3px; background: linear-gradient(90deg, transparent, var(--navy) 30%, var(--navy) 70%, transparent); opacity:.55; }
+.rule.top { top:468px; } .rule.bottom { top:970px; }
+.safe { position:absolute; left:507px; top:508px; width:1546px; height:423px; display:flex; align-items:center; justify-content:space-between; gap:40px; }
+.text { display:flex; flex-direction:column; justify-content:center; }
+.kicker { font-family: var(--label); font-weight:600; font-size:24px; letter-spacing:.34em; text-transform:uppercase; color: var(--rope); margin-bottom:8px; }
+.wordmark { font-family: var(--display); font-weight:800; font-size:128px; line-height:.9; letter-spacing:-1px; color: var(--gun);
+  text-shadow: 0 2px 0 rgba(255,255,255,.35), 0 3px 8px rgba(40,30,20,.25); }
+.tag { font-family: var(--body); font-weight:500; font-size:40px; color: var(--navy); margin-top:14px; }
+.by { font-family: var(--label); font-weight:600; font-size:24px; letter-spacing:.3em; text-transform:uppercase; color: var(--gun-2); margin-top:12px; }
+.pod { display:flex; flex-direction:column; align-items:center; gap:14px; flex:none; padding-left:40px; border-left:3px solid rgba(43,58,102,.35); height:360px; justify-content:center; }
+#logo { width:270px; height:270px; filter: drop-shadow(0 6px 14px rgba(40,30,20,.35)); }
+#logo svg, #logo img { width:100%; height:100%; }
+.pod .l { font-family: var(--label); font-weight:700; font-size:24px; letter-spacing:.3em; text-transform:uppercase; color: var(--navy); white-space:nowrap; }
+.g { position:absolute; display:none; pointer-events:none; } body.guides .g { display:block; }
+.g.safe-box { left:507px; top:508px; width:1546px; height:423px; outline:3px dashed #ff3b30; }
+</style></head>
+<body>
+<svg class="grain" xmlns="http://www.w3.org/2000/svg"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .55  0 0 0 0 .47  0 0 0 0 .38  0 0 0 .9 0"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
+<div class="vig"></div>
+<div class="rule top"></div><div class="rule bottom"></div>
+<div class="safe">
+  <div class="text">
+    <div class="kicker">Matthew 4:19 · Fishers of men</div>
+    <div class="wordmark">Sharpening<br>Ministries</div>
+    <div class="tag">Men walking for a lifetime.</div>
+    <div class="by">sharpeningministries.com</div>
+  </div>
+  <div class="pod"><div id="logo"></div><div class="l">Home of the 4:19 Podcast</div></div>
+</div>
+<div class="g safe-box"></div>
+<script src="logo.js"></script>
+<script>mountLogo(document.getElementById('logo')); if (location.search.includes('guides')) document.body.classList.add('guides');</script>
+</body></html>
