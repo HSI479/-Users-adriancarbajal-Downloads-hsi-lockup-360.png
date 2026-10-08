@@ -8,7 +8,8 @@ Rokkitt display, Libre Franklin body, Archivo labels).
 |---|---|---|
 | `profile-800x800.(png\|jpg)` | 800×800 | Customization → Branding → Picture (shown as a circle) |
 | `banner-2560x1440.(png\|jpg)` | 2560×1440 | Customization → Branding → Banner image (≤ 6 MB) |
-| `banner-GUIDES.png` | 2560×1440 | Proof only: red = 1546×423 safe area, yellow = tablet, green = desktop |
+| `banner-ministry-2560x1440.(png\|jpg)` | 2560×1440 | Banner for the **Sharpening Ministries** channel (one-channel setup: "Home of the 4:19 Podcast") |
+| `banner-GUIDES.png`, `banner-ministry-GUIDES.png` | 2560×1440 | Proof only: red = 1546×423 safe area, yellow = tablet, green = desktop |
 | `podcast-cover-3000x3000.(png\|jpg)` | 3000×3000 | Create → New podcast → square thumbnail |
 | `thumb-ep1-bold-courageous-A.(png\|jpg)` | 1280×720 | Episode 1 custom thumbnail (concept A, guest portrait) |
 | `thumb-ep2-six-months-later-B.(png\|jpg)` | 1280×720 | Episode 2 custom thumbnail (concept B, statement card) |

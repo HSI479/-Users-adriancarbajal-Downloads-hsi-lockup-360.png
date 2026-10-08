@@ -22,12 +22,13 @@ const enc = (o) => Object.entries(o).map(([k, v]) => `${k}=${encodeURIComponent(
 const jobs = [
   { name: 'profile-800x800.png', url: t('profile.html'), w: 800, h: 800 },
   { name: 'banner-2560x1440.png', url: t('banner.html'), w: 2560, h: 1440 },
+  { name: 'banner-ministry-2560x1440.png', url: t('banner-ministry.html'), w: 2560, h: 1440 },
   { name: 'podcast-cover-3000x3000.png', url: t('podcast-cover.html'), w: 3000, h: 3000 },
   { name: 'thumb-ep1-bold-courageous-A.png', url: t('thumb.html', '?' + enc({ concept: 'A', ep: 'EPISODE 1', title: 'Bold &amp; <em>Courageous</em>', sub: 'with <b>Mark Carter</b>, founder of The King’s Refuge' })), w: 1280, h: 720 },
   { name: 'thumb-ep2-six-months-later-B.png', url: t('thumb.html', '?' + enc({ concept: 'B', ep: 'EPISODE 2 · PART 1', title: 'Six Months <em>Later</em>', sub: 'Taylor, Walker &amp; Adrian on life after the <b>Hot Springs</b> men’s weekend' })), w: 1280, h: 720 },
   { name: 'thumb-ep3-six-months-later-C.png', url: t('thumb.html', '?' + enc({ concept: 'C', ep: 'EPISODE 3 · PART 2', title: 'What <em>Stuck</em>', sub: '<b>Six Months Later</b>, part 2: discipleship that lasts' })), w: 1280, h: 720 },
 ];
-if (guides) jobs.push({ name: 'banner-GUIDES.png', url: t('banner.html', '?guides=1'), w: 2560, h: 1440 });
+if (guides) jobs.push({ name: 'banner-GUIDES.png', url: t('banner.html', '?guides=1'), w: 2560, h: 1440 }, { name: 'banner-ministry-GUIDES.png', url: t('banner-ministry.html', '?guides=1'), w: 2560, h: 1440 });
 
 const browser = await chromium.launch({ executablePath: process.env.CHROME_PATH || undefined });
 for (const j of jobs) {
